@@ -1,9 +1,13 @@
 import React from 'react';
-
+import Boat from './Boat';
+import Sea from './Sea';
 class GameBoard extends React.Component {
     render() {
         return(
-            <div>GameBoard</div>
+            <div>
+                <Boat></Boat>
+                <Sea></Sea>
+            </div>
         )
     }
 }

@@ -1,18 +1,17 @@
-.sea {
-    position: absolute;
-    z-index: -1;
-    top: -650px;
-    height: 1500px;
+#sea_div {
+    width: 600px;
+    height: 800px;
+    overflow: hidden;
 }
 
-.seaRun {
+#sea {
     position: absolute;
     z-index: -1;
-    top: -650px;
-    height: 1500px;
-    animation:seaRun 3s linear infinite;
+    top: -430px;
+    height: 1450px;
+    overflow: hidden;
 }
 
 @keyframes seaRun {
-    100%{ transform:translateY(700px);}
+    100%{ transform:translateY(600px);}
 }

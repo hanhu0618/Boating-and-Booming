@@ -1,5 +1,35 @@
+#race_map {
+    position: absolute;
+    top: 25%;
+    left: 5%
+}
+
 #controller {
     position: absolute;
-    top: 65%;
-    left: 8%
+    top: 90%;
+    left: 5%
+}
+
+#bomb {
+    position: absolute;
+    top: 70%;
+    left: 90%
+}
+
+#smelly_fish {
+    position: absolute;
+    top: 78%;
+    left: 77%
+}
+
+#defend_fish {
+    position: absolute;
+    top: 95%;
+    left: 87%
+}
+
+#attack_fish {
+    position: absolute;
+    top: 100%;
+    left: 70%
 }

@@ -22,8 +22,8 @@ class Sea extends React.Component {
     }
     render() {
         return (
-            <div>
-                <img id = "sea" className = "sea" src = {SeaSurface}></img>
+            <div id="sea_div">
+                <img id = "sea" src = {SeaSurface}></img>
             </div>
         )
     }

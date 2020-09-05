@@ -1,0 +1,22 @@
+#login {
+    position: absolute;
+    top: 12%;
+    left: 38%;
+    margin: auto;
+}
+
+#buttons {
+    position: relative;
+    text-align: center;
+}
+
+#logo {
+    position: relative;
+    margin-left: 20%;
+    transform: scale(1);
+}
+
+#title {
+    font-family: Apple Chancery;
+    text-align: center;
+}

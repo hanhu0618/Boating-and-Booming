@@ -1,5 +1,5 @@
 import React from 'react';
-import SeaSurface from '../resource/road.png';
+import SeaSurface from '../resource/sea_surface.jpeg';
 import './Sea.css';
 
 class Sea extends React.Component {
@@ -16,7 +16,7 @@ class Sea extends React.Component {
             case 73:
                 sea.style.animation = "seaRun 3s linear infinite";
                 if (this.state.stopRun) window.clearTimeout(this.state.stopRun);
-                const stopRun = window.setTimeout(() => sea.style.animation = "", 1000);
+                const stopRun = window.setTimeout(() => sea.style.animation = "", 500);
                 this.setState({stopRun: stopRun});
         }
     }

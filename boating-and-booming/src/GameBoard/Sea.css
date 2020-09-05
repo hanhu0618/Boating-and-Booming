@@ -1,20 +1,18 @@
 .sea {
     position: absolute;
-    left: 300px;
     z-index: -1;
-    top: -800px;
-    height: 1600px;
+    top: -650px;
+    height: 1500px;
 }
 
 .seaRun {
     position: absolute;
-    left: 300px;
     z-index: -1;
-    top: -800px;
-    height: 1600px;
+    top: -650px;
+    height: 1500px;
     animation:seaRun 3s linear infinite;
 }
 
 @keyframes seaRun {
-    100%{ transform:translateY(800px);}
+    100%{ transform:translateY(700px);}
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from '../resource/hero.png';
+import Hero from '../resource/boat.png';
 import RightPaddle from '../resource/right_paddle.png';
 import LeftPaddle from '../resource/left_paddle.png';
 import './Boat.css';
@@ -29,7 +29,7 @@ class Boat extends React.Component {
         switch (event.keyCode) {
             // key 'w'
             case 87:
-                boatDirection = (boatDirection + 0.5) % 360;
+                boatDirection = (boatDirection + 3) % 360;
                 boat.style.transform = 'rotate(' + boatDirection + 'deg) scale(2)';
                 leftPaddleYDirection = leftPaddleYDirection === 0 ? 60 : 0;
                 leftPaddle.style.transform = 'rotateY(' + leftPaddleYDirection + 'deg) rotateZ(15deg) scale(0.5)';
@@ -41,7 +41,7 @@ class Boat extends React.Component {
                 break;
             // key 'i'    
             case 73:
-                boatDirection = (boatDirection - 0.5) % 360;
+                boatDirection = (boatDirection - 3) % 360;
                 boat.style.transform = 'rotate(' + boatDirection + 'deg) scale(2)';
                 rightPaddleYDirection = rightPaddleYDirection === 0 ? 60 : 0;
                 rightPaddle.style.transform = 'rotateY(' + rightPaddleYDirection + 'deg) rotateZ(-15deg) scale(0.5)';

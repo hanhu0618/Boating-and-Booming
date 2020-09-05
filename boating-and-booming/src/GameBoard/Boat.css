@@ -1,20 +1,22 @@
 #left_paddle {
     position: absolute;
-    top: 50%;
+    top: 33%;
     left: 380px;
     transform: scale(0.5);
+    z-index: 2;
 }
 
 #right_paddle {
     position: absolute;
-    top: 50%;
+    top: 33%;
     left: 580px;
     transform: scale(0.5);
+    z-index: 2;
 }
 
 #boat {
     position: absolute;
-    top: 77%;
+    top: 50%;
     left: 700px;
     transform: scale(2);
 }

@@ -33,3 +33,18 @@
     top: 100%;
     left: 70%
 }
+
+#peiqi {
+    position: absolute;
+    top: 53%;
+    left: 32%;
+    transform: scale(0.2);
+    z-index: 3;
+}
+
+#peiqi_daddy {
+    position: absolute;
+    top: 79%;
+    left: 52%;
+    z-index: 3;
+}

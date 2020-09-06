@@ -1,7 +1,7 @@
 ## Build和启动说明
 
 ### 一、Build
-进入`boating-and-booming`目录
+进入`boating-and-booming`目录<br/>
 ```npm run build```
 
 ### 二、启动Server
